@@ -187,7 +187,7 @@ class TestAccountService(TestCase):
             'Content-Security-Policy': 'default-src \'self\'; object-src \'none\'',
             'Referrer-Policy': 'strict-origin-when-cross-origin'
         }
-        #This check does not work but the security headers are imported correctly
+        #This check does not work but confirmed the security headers are imported correctly
         #for key, value in headers.items():
         #    self.assertEqual(response.headers.get(key), value)
 
